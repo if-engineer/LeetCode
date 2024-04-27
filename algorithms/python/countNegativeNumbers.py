@@ -1,14 +1,21 @@
-def countNegatives(self, grid: List[List[int]]) -> int:
-        count  = 0
-        cols = len(grid[0])
-        for row in grid:
-            left, right = 0 , cols - 1
-            while left <= right:
-                mid = left + (right - left) // 2
+def countNegatives(self, grid):
+  """""
+  Args:
+      grid (List[List[int]])
 
-                if row[mid] < 0:
-                    count += right - mid + 1
-                    right = mid - 1
-                else: left = mid + 1
+  Returns:
+      int
+  """
+  count  = 0
+  cols = len(grid[0])
+  for row in grid:
+      left, right = 0 , cols - 1
+      while left <= right:
+          mid = left + (right - left) // 2
 
-        return count
+          if row[mid] < 0:
+              count += right - mid + 1
+              right = mid - 1
+          else: left = mid + 1
+
+  return count
