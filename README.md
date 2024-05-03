@@ -8,3 +8,4 @@
 | [189](https://leetcode.com/problems/rotate-array/solutions/5091414/python-solution/) | [ Rotate Array ](https://leetcode.com/problems/rotate-array/solutions/5091414/python-solution/) | Python |
 | [217](https://leetcode.com/problems/contains-duplicate/solutions/5093546/python-one-line-solution/) | [ Contain Dupplicate ](https://leetcode.com/problems/contains-duplicate/solutions/5093546/python-one-line-solution/) | Python |
 | [219](https://leetcode.com/problems/contains-duplicate-ii/solutions/5093567/python-hash-table-solution/) | [ Contain DupplicateⅡ ](https://leetcode.com/problems/contains-duplicate-ii/solutions/5093567/python-hash-table-solution/) | Python |
+| [136](https://leetcode.com/problems/single-number/solutions/5105474/python-simple-solution/) | [ Single Number ](https://leetcode.com/problems/single-number/solutions/5105474/python-simple-solution/) | Python |
